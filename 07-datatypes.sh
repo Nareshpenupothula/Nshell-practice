@@ -5,3 +5,7 @@ Number2=250
 sum=$(($Number1+$Number2))
 
 echo "sumof number: ${sum}"
+
+name=("raj" "dev" "prabhu" "daniel")
+
+echo("all names: ${name[@]}" )
