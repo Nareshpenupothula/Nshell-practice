@@ -1,4 +1,3 @@
-#!/bin/bash
 PERSON1=John
 PERSON2=RAJ
 
