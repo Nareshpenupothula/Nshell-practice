@@ -1,12 +1,14 @@
 #!/bin/bash
 
-number=$1
+number1=$1
+number2=$2
 
-if [ $number -lt 10 ]; then
-    echo "number $number is lessthan 10"
+
+if [ $number1 -lt $number2 ]; then
+    echo "number $number1 is lessthan $number2"
 elif [ $number -eq 10 ]; then
-    echo "number $number is equal"
+    echo "numbers is equal"
 
 else
-    echo "number $number is greaterthan or eqaul to 10"
+    echo "number $number1 is greaterthan $number2"
 fi
