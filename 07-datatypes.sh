@@ -9,3 +9,5 @@ echo "sumof number: ${sum}"
 name=("raj" "dev" "prabhu" "daniel")
 
 echo "all names: ${name[@]}" 
+echo "first name: ${name[0]}"
+echo "second name: ${name[1]}"
