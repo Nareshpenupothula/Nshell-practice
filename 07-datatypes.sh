@@ -8,4 +8,4 @@ echo "sumof number: ${sum}"
 
 name=("raj" "dev" "prabhu" "daniel")
 
-echo("all names: ${name[@]}" )
+echo "all names: ${name[@]}" 
