@@ -20,7 +20,7 @@ VALIDATE (){
     fi
 }
 dnf list installed mysql
-if [$? -ne 0 ]; then
+if [ $? -ne 0 ]; then
     dnf install mysql -y
     VALIDATE $? "MYSQL"
 else 
@@ -28,14 +28,14 @@ else
 fi
 
 dnf list installed nginx
-if [$? -ne 0 ]; then
+if [ $? -ne 0 ]; then
     dnf install nginx -y
     VALIDATE $? "Nginx"
 else 
     echo "Nginx already installed  $y skipping $n"
 fi
 dnf list installed python3
-if [$? -ne 0 ]; then
+if [ $? -ne 0 ]; then
     dnf install python3 -y
     VALIDATE $?  "Python"
 else 
