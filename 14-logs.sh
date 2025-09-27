@@ -8,7 +8,7 @@ log_folder="/var/log/shell-script"
 script_name=$(echo $0 | cut -d "." -f1)
 log_file="$log_folder/$script_name.log"
 
-mikdir -p $log_folder
+mkdir -p $log_folder
 
 echo "script started excuted at : $(date)"
 
